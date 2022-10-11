@@ -1,0 +1,114 @@
+.informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.informacoes__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoes__logo {
+    background: url('../img/logo.svg') no-repeat;
+    background-size: contain;
+    width: 148px;
+    height: 23px;
+    margin: 2rem;
+}
+
+.informacoes__imagemMobile {
+    background: url('../img/hero-mobile.jpg') no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.textos {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1.2rem;
+    padding: 4rem 2.5rem 2rem 2.5rem;
+}
+
+.textos__titulo {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--vermelho_pastel_claro);
+    letter-spacing: .8rem;
+}
+
+.titulo__destaque {
+    color: var(--cinza);
+    font-weight: 600;
+}
+
+.textos__descricao {
+    text-align: center;
+    font-size: 15px;
+    color: var(--vermelho_pastel_claro);
+    line-height: 1.5rem;
+    font-weight: 400;
+}
+
+.informacoes__inputs {
+    align-self: center;
+    position: relative;
+    width: 320px;
+}
+
+.informacoes__email {
+    width: 320px;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.informacoes__email::placeholder {
+    font-family: var(--fonte);
+    font-size: 15px;
+    color: var(--vermelho_pastel_claro);
+    padding: .5rem;
+}
+
+.btn__submit {
+    position: absolute;
+    right: -2px;
+    bottom: 0;
+    height: 51px;
+    width: 80px;
+    background: url('../img/icon-arrow.svg') no-repeat center, linear-gradient(var(--gradiente_rosa));
+    border: none;
+    border-radius: 35px;
+    box-shadow: var(--vermelho_pastel_claro) 0px 7px 29px 0px;
+    transition: .3s;
+}
+
+.container__imagem {
+    display: none;
+}
+
+
+.erro {
+    color: var(--vermelho_pastel);
+    font-weight: 700;
+    padding-top: 1rem;
+    position: absolute;
+    left: 25px;
+    top: 55px;
+}
+
+.icone__erro {
+    display: none;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 13px;
+    right: 90px;
+}
+
+.aparecer {
+    display: block;
+}

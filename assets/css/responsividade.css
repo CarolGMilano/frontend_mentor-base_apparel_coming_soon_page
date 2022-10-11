@@ -1,0 +1,77 @@
+@media screen and (min-width: 600px) {
+    body {
+        background-image: url('../img/bg-pattern-desktop.svg'), linear-gradient(var(--gradiente_rosa_claro));
+        background-repeat: no-repeat;
+        background-size: 60% 100%;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+
+    .informacoes {
+        width: 60%;
+        overflow: hidden;
+    }
+    
+    .informacoes__container {
+        row-gap: 5rem;
+        flex-direction: column;
+    }
+
+    .informacoes__logo {
+        width: 188px;
+        height: 33px;
+        margin: 0;
+    }
+
+    .informacoes__imagemMobile {
+        display: none;
+    }
+
+    .textos {
+        padding: 0 0 1.5rem 0;
+    }
+
+    .textos__titulo {
+        width: 350px;
+        font-size: 60px;
+        text-align: start;
+    }
+
+    .textos__descricao {
+        width: 500px;
+        font-size: 18px;
+        text-align: start;
+        line-height: 2rem;
+    }
+
+    .informacoes__inputs {
+        align-self: flex-start;
+    }
+
+    .informacoes__inputs,
+    .informacoes__email {
+        width: 480px;
+        margin: 0;
+    }
+
+    .container__imagem {
+        display: block;
+        width: 40%;
+        height: 100%;
+    }
+
+    .imagem__desktop {
+        background: url('../img/hero-desktop.jpg') no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%
+    }
+
+    .btn__submit:hover {
+        background: url('../img/icon-arrow.svg') no-repeat center, linear-gradient(var(--gradiente_rosa_hover));
+        cursor: pointer;
+        box-shadow: var(--vermelho_pastel) 0px 1px 20px 0px;
+    }
+}

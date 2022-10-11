@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <link rel="shortcut icon" href="assets/img/favicon-32x32.png" type="image/x-icon">
+        <title>Frontend Mentor | Base Apparel coming soon page</title>
+    </head>
+
+    <body> 
+        <main class="container">
+            <section class="informacoes">
+                <div class="informacoes__container">
+                    <div class="informacoes__logo"></div>
+                    <div class="informacoes__imagemMobile"></div>
+
+                    <div class="textos">
+                        <h1 class="textos__titulo">We're <span class="titulo__destaque">coming soon</span></h1>
+                        <h2 class="textos__descricao">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</h2>
+                    </div>
+
+                    <div class="informacoes__inputs">
+                        <label for="email"></label>
+                        <input type="email" name="email" class="informacoes__email borda__normal" placeholder="Email Address">
+
+                        <button type="submit" class="btn__submit" aria-label="Submit"></button>
+                        
+                        <span class="msg erro"></span>
+                        <img src="assets/img/icon-error.svg" class="icone__erro"></img>
+                    </div>
+                </div>
+                
+            </section>
+
+            <section class="container__imagem">
+                <div class="imagem__desktop"></div>
+            </section>
+
+            <script src="assets/js/main.js"></script>
+        </main>
+    </body>
+</html>
